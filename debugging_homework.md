@@ -19,7 +19,7 @@ So if your breakpoint is at line 27, the code will not run line 27. But it will 
 
 We debug a line of code by going into the Debugger tool and going to the Variables tab. Here we can see more information about the instances that are created. We can see the properties and values that are relevant to this specific line of code.
 
-We use **_Step Over_** to run the line of code we are on to jump to the next line. If it jumps over it - it means that that line is not run. There is a bug! If the code does run. And every time you click on *Step Over*, every line is being run. **All is well!**
+We use **_Step Over_** to run the line of code we are on to jump to the next line. If it jumps over it - it means that that line is not run. There is a bug! If the code does run. And every time you click on **_Step Over_**, every line is being run. **All is well!**
 
 
 ### 4. What does the step into command do?
@@ -38,5 +38,5 @@ When you **_Step Into_** it again, and your method refers to, for example, a fun
 You can run multiple lines of code and even create temporary variables to store information. You can actually run entire methods with multiple expressions.
 `Booking booking = bookings.get(0);
 hotel.addBooking(booking);
-hotel.getBookings();`
+hotel.getBookings();`.
 Similar to Evaluate Expressions, when you evaluate the **_Code Fragment_** it will return the result. Every time you run it, it will remember the variables and the values in them. For example, if you had a counter with counter++ and it would return the value. Every time you would evaluate the code, the result returned would increment.
